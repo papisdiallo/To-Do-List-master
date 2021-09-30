@@ -91,7 +91,7 @@ ulTodoList.addEventListener('click', (e) => {
 refresher.addEventListener('click', () => {
     localStorage.clear();
     location.reload();
-})
+});
 
 // Now let's get the data in the local storage
 var data = localStorage.getItem("TODOS");
